@@ -10,6 +10,6 @@ function resultado(){
     
  
     alert("resultado  ");
-    var  resultado = document.getElementById("text");
+    var  resultado = document.getElementById("text").value;
     document.getElementById("text").eval(resultado);
 }
