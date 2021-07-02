@@ -4,6 +4,10 @@ function btnMais(){
     document.getElementById("text").innerHTML="+";
 
 }
+function limpar(){
+    alert("clicou limpar");
+    document.getElementById("text").innerHTML="";
+}
 
 
 function resultado(){
