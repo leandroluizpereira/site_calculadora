@@ -1,7 +1,7 @@
 function btnMais(){
     alert("clicou +");
 
-    document.getElementById("text").innerHTML="+";
+    document.getElementById("text).innerHTML="+";
 
 }
 
