@@ -28,6 +28,7 @@ input{
     width: 90%;
     height: 25px;
     border-radius: 6px;
+    text-align: center;
 }
 .botao{
     border: 1px solid white;
