@@ -7,6 +7,7 @@ function btnMais(){
 
 
 function resultado(){
+    alert("resultado");
     var  resultado = document.getElementById("text");
     document.getElementById("text").eval(resultado);
 }
