@@ -1,19 +1,19 @@
-function btnMais(){
-    alert("clicou +");
+function btnInsert(num){
 
-    document.getElementById("text").innerHTML="+";
+   var numero = document.getElementById('text').innerHTML;
+   document.getElementById('text').innerHTML = numero + num;
+
 
 }
+
 function limpar(){
-    alert("clicou limpar");
+
     document.getElementById("text").innerHTML="";
 }
 
 
 function resultado(){
-    
- 
-    alert("resultado  ");
+
     var  resultado = document.getElementById("text").value;
     document.getElementById("text").eval(resultado);
 }
