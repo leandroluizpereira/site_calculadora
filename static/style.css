@@ -2,11 +2,11 @@
 
 body{
     margin: 0px;
-    background-color: beige;
+    background-color: white;
 }
 
 main{
-    background-color: white;
+    background-color:white;
     margin: 50px auto ;
     width: 500px;
     padding-bottom: 10px;
@@ -40,22 +40,25 @@ td{
     
 }
 .botao{
-    background-color: black;
+    background-color:black;
     border: 1px solid white;
     border-radius: 5px;
     padding: 15px;
-    margin: 6px;
+    margin: 5px;
     display: inline-block;
     color: white;
     cursor: pointer;
     
 }
+
 .botao:hover{
-    background-color:maroon;
+    background-color: rgb(31, 31, 31);
+
 }
 .botao:active{
     background-color: green;
 }
+
 h1{
     color: rgb(255, 255, 255);
     text-align: center;
