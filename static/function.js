@@ -12,8 +12,17 @@ function limpar(){
 }
 
 
+function back(){
+    var result =document.getElementById('text').innerHTML;
+    document.getElementById('text').innerHTML = result.substring(0, result.length -1);
+
+}
+
+
 function resultado(){
 
-    var  resultado = document.getElementById("text").value;
-    document.getElementById("text").eval(resultado);
+    var  resultado = document.getElementById("text").innerHTML
+    if(resultado){
+        document.getElementById('text').innerHTML = eval(resultado);
+    }
 }
