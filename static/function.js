@@ -24,5 +24,7 @@ function resultado(){
     var  resultado = document.getElementById("text").innerHTML
     if(resultado){
         document.getElementById('text').innerHTML = eval(resultado);
+        document.getElementById('text').style.color="green";
     }
+ 
 }
